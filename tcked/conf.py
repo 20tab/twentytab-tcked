@@ -31,6 +31,8 @@ class CKEDConf(AppConf):
         return getattr(settings, 'MEDIA_ROOT')
 
     def configure_elfinder_options(self, value):
+        if not os.path.exists(os.path.join(os.getcwd(), 'media', 'uploads')):
+            os.makedirs(os.path.join(os.getcwd(), 'media', 'uploads'))
         if not getattr(settings, 'ELFINDER_OPTIONS', None):
             self._meta.holder.ELFINDER_OPTIONS = value
             return value

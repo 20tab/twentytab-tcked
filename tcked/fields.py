@@ -3,8 +3,6 @@ It contains RichTextField. It's a TextField with CKEditor widget in his form
 """
 from django.db import models
 from django import forms
-from . import conf
-
 from tcked.widgets import CKEditorWidget
 
 
