@@ -7,6 +7,12 @@ A django application that use cked as texteditor. It update RichTextField with c
 
 Use the following command: <b><i>pip install twentytab-tcked</i></b>
 
+and
+
+<b><i>pip install -e hg+https://bitbucket.org/ssbb/django-cked#egg=django-cked</i></b>
+
+For more informations about django-cked follow this link: https://bitbucket.org/ssbb/django-cked/overview
+
 
 ## Configuration
 
