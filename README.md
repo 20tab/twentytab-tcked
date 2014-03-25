@@ -38,6 +38,14 @@ urlpatterns = patterns('',
 
 ```
 
+- Static files
+
+Run collectstatic command or map static directory. If you use uWSGI you can map static files:
+
+```ini
+static-map = /static/cked/=%(path_to_site_packages)/cked/static/cked
+```
+
 
 ## Usage
 
