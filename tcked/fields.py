@@ -29,6 +29,7 @@ class RichTextFormField(forms.fields.Field):
     """
     def __init__(self, config=None, *args, **kwargs):
         kwargs.update({'widget': CKEditorWidget(config=config)})
+        kwargs.pop('max_length', None)
         super(RichTextFormField, self).__init__(*args, **kwargs)
 
 # Fix field for South
