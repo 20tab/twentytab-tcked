@@ -1,3 +1,8 @@
+NO LONGER MAINTAINED
+===================
+This repository is no longer maintained, please switch at: https://github.com/20tab/twentytab-cked/
+
+
 twentytab-tcked
 ===============
 
